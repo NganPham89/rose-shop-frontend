@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { Product } from "@/type";
 
 import { persist, createJSONStorage } from "zustand/middleware";
-import toast from "react-hot-toast/headless";
+import toast from "react-hot-toast";
 
 interface CartStore {
     items: Product[];
@@ -17,6 +17,7 @@ const useCart = create(
         addItem: (data: Product) => {
             const currentItems = get().items;
             const existingItem = currentItems.find((item) => item.id === data.id);
+            console.log(existingItem)
 
             if (existingItem) {
                 return toast("Item already in cart.")
