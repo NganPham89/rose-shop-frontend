@@ -15,6 +15,10 @@ https://rose-shop-frontend.vercel.app/
 - Stripe for checkout
 - PlanetScale to host and Prisma to manage MySQL
 
+## Screenshot
+
+![main](./screenshots/project-ecommerce-frontend.jpg)
+
 ## Getting Started
 
 First, run the development server:
