@@ -1,5 +1,9 @@
 Full Stack E-Commerce Project - Store Front: Next.js 13 App Router, React, Tailwind, Prisma
 
+## Deployed App
+
+https://rose-shop-frontend.vercel.app/
+
 ## Features:
 
 - This store front can connect with an admin dashboard to display products as the admin choose to
