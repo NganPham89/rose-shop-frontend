@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Full Stack E-Commerce Project - Store Front: Next.js 13 App Router, React, Tailwind, Prisma
+
+## Features:
+
+- This store front can connect with an admin dashboard to display products as the admin choose to
+- Shoppers can view and filter products based on categories, sizes, and colors
+- Shoppers can add items to cart and checkout securely through Stripe
+
+## Technologies: 
+
+- Stripe for checkout
+- PlanetScale to host and Prisma to manage MySQL
 
 ## Getting Started
 
